@@ -1,0 +1,93 @@
+[
+    {
+     "name": "Nike Dunk Low",
+     "color": ["Black", "White"],
+     "type": "Sneaker",
+     "price": 110.00, 
+     "image": "images/dunks.png"
+    },
+    {
+    "name": "Nike Air Force 1 LV8 3",
+    "color": ["Tan"],
+    "type": "Sneaker",
+    "price": 95.00, 
+    "image": "images/tanairforce.png"
+    },
+    {
+     "name": "Vans SK8-Hi",
+    "color": ["Red"],
+    "type": "Sneaker",
+    "price": 80.00, 
+    "image": "images/vans.png"
+    },
+    {
+    "name": "Jadon Boot Smooth Leather Platforms",
+    "color": ["Black"],
+    "type": "Non-Sneaker",
+    "price": 200.00, 
+    "image": "images/docs.png"
+    },
+    {
+    "name": "Onitsuka Tiger Mexico 66",
+    "color": ["Tan", "Green"],
+    "type": "Sneaker",
+    "price": 100.00, 
+    "image": "images/mexico.png"
+    },
+    {
+    "name": "Nike AIR Max 97",
+    "color": ["White", "Grey"],
+    "type": "Sneaker",
+    "price": 175.00, 
+    "image": "images/airmax.png"
+    },
+    {
+    "name": "Chuck Taylor All Star Classic High Top",
+    "color": ["Black"],
+    "type": "Sneaker",
+    "price": 65.00, 
+    "image": "images/blackhightop.png"
+    },
+    {
+    "name": "Long Calf Boots",
+    "color": ["Black"],
+    "type": "Non-Sneaker",
+    "price": 60.00, 
+    "image": "images/boots.png"
+    },
+    {
+    "name": "Hoka Clifton 7",
+    "color": ["White"],
+    "type": "Sneaker",
+    "price": 140.00, 
+    "image": "images/hoka.png"
+    },
+    {
+    "name": "Nike AIR Force 1 ‘07",
+    "color": ["White"],
+    "type": "Sneaker",
+    "price": 110.00, 
+    "image": "images/whiteairforce.png"
+    },
+    {
+    "name": "Chuck Taylor All Star Classic Low Top",
+    "color": ["White"],
+    "type": "Sneaker",
+    "price": 60.00, 
+    "image": "images/whiteconverse.png"
+    },
+    {
+    "name": "Strapped Buckle Sandals",
+    "color": ["Black"],
+    "type": "Non-Sneaker",
+    "price": 30.00, 
+    "image": "images/sandals.png"
+    },
+    {
+    "name": "Round Loafers",
+    "color": ["White"],
+    "type": "Non-Sneaker",
+    "price": 40.00, 
+    "image": "images/roundloafers.png"
+    }
+]

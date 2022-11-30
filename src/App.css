@@ -1,38 +1,103 @@
 .App {
-  text-align: center;
+  background: linear-gradient(to bottom, #a2ceff, #acd3ff, #b5d8ff, #bfddff, #c8e2ff, #c8e2ff, #c8e2ff, #c8e2ff, #bfddff, #b5d8ff, #acd3ff, #a2ceff)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex {
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-row {
+  flex-direction: row;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+.md\:grid-cols-3 {
+  grid-template-columns: repeat(3,minmax(0,1fr));
+}
+
+#Display {
+  margin: 4rem 0rem;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#MainContent {
+  justify-content: space-between; 
+}
+
+#Custom-bar {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  margin: 4rem 0rem;
+  position: sticky;
+  top: 5rem; 
 }
 
-.App-link {
-  color: #61dafb;
+.quantityChange {
+  border: 2px solid #d2d2d2; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cartCard {
+  margin: 0rem 0rem 1rem 0rem ; 
+}
+
+#Cart {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0rem;
+  position: sticky;
+  top: 4rem; 
+  padding: 0 1rem 0 0; 
+}
+
+#cartCont {
+  width: 30%; 
+}
+
+#filler {
+  width: 100%
+}
+
+.shoeCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  transition: 0.3s;
+  background-color: rgb(255, 255, 255);
+}
+
+.shoeCard:hover {
+  box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+}
+
+.shoeCard img {
+  width: 100%;
+}
+
+.formLabel {
+  margin: 1rem 0 0 0; 
 }

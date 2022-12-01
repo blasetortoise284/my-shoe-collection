@@ -32,10 +32,10 @@ All of the data about the shoes is extracted from a JSON file I created called "
 
 ### How the User Triggers State Changes
 I used a total of 4 states, "typeState," "colorState", "sortState", and "cart." 
-**"typeState," "colorState," and "sortState,"**
+####"typeState," "colorState," and "sortState"
 "typeState" is initialized to a dictionary with the key "checkboxes" paired with the value of a dictionary containing keys of the types of shoes and values to the boolean of "false." The user can trigger changes in the "typeState" according to what checkboxes have been selected for the "Shoe Types" filtering category, which will update the boolean to true/false as necessary. This same data structure was used for "colorState" and "sortState." For "colorState" and "typeState," the user triggering state changes will update constants "typeArray" and "colorArray" to contain all of the attributes that have been selected in the "isSelected" function. This also goes for when the user triggers a state change by clicking the "Reset All Filters" button, which will map all keys in "typeState" and "colorState" to "false." Finally, the functions "filterBy" and "sortBy" use these arrays and "sortState" to evaluate whether or not an item will be displayed, and these functions are called when "sort" and "filter" are called on "shoeData." These all go into updating "displayData." 
 
-**"cart"**
+####"cart"
 "cart" is initialized to a dictionary with keys "prods" and "total," the value for "prods" being a blank dictionary and "total" being the number 0. The user is able to trigger state changes in "cart" by clicking the "Add to Cart" button for a displayed shoe, clicking the "Clear" button on the cart, incrementing/decrementing a cart item, or clicking the "Remove Shoe From Cart" button. 
 1. Clicking "Add to Cart" Button on a Shoe Item: clicking this button updates the "cart" state to add the price of that shoe to "cart.total" and a key-value pair to "cart.prods," which has the name of the shoe as the key and an array containing the price and count of the shoe as the value. Clicking this multiple times for a shoe already added update the state of "cart" again by incrementing the count and "cart.total" accordingly. 
 2. Clicking "Clear" Button: clicking this button updates the "cart" state to reset so that the "cart.prods" key has a blank dictionary as the value and the "cart.total" key has a value of 0, which is the initial state "cart" was set as before anything was added. 

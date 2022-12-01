@@ -7,7 +7,7 @@ const Cart = (props) => {
     const total = props.total; 
 
     return (
-    <div id="Cart">
+    <div id="Cart" >
         <Box style={{display: 'flex', justifyContent:'space-between'}}>
             <h2>Your Cart</h2>
             <Button sx={{ margin: '1rem 0rem 1rem 0rem', maxWidth: '1rem'}}  variant="contained" onClick={() => props.resetCart()}>
@@ -19,7 +19,7 @@ const Cart = (props) => {
              <CartCard name={name} handlePairs={props.handlePairs} prods={prods} removeShoe={props.removeShoe}/>
             ))}
         </Box>
-        <h2>Total: ${total.toFixed(2)}</h2>
+        <h4>Total: ${total.toFixed(2)}</h4>
     </div>
   );
 }

@@ -22,8 +22,8 @@ const ShoeCard = (props) => {
                             Price: ${price}.00
                         </Typography>
                 </CardContent>
-                <CardActions sx={{}}>
-                    <Button sx={{margin: '1rem 0 0 0.5rem'}} variant="contained" size="small" onClick={() => props.updateCart(index)}>Add to Cart</Button>
+                <CardActions >
+                    <Button style={{backgroundColor: "#4580DA"}} sx={{margin: '1rem 0 0 0.5rem'}} variant="contained" size="small" onClick={() => props.updateCart(index)}>Add to Cart</Button>
                 </CardActions>
             </Box>
         </Card>

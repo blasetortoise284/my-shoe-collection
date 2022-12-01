@@ -10,7 +10,7 @@ const Cart = (props) => {
     <div id="Cart" >
         <Box style={{display: 'flex', justifyContent:'space-between'}}>
             <h2>Your Cart</h2>
-            <Button sx={{ margin: '1rem 0rem 1rem 0rem', maxWidth: '1rem'}}  variant="contained" onClick={() => props.resetCart()}>
+            <Button style={{color: "#4580DA"}} sx={{ margin: '1rem 0rem 1rem 0rem', maxWidth: '1rem'}}  variant="outlined" onClick={() => props.resetCart()}>
             Clear
             </Button>
         </Box>
@@ -20,6 +20,7 @@ const Cart = (props) => {
             ))}
         </Box>
         <h4>Total: ${total.toFixed(2)}</h4>
+        <Button style={{backgroundColor: "#4580DA"}} variant="contained">Check out</Button>
     </div>
   );
 }

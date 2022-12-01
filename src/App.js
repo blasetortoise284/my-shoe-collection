@@ -212,10 +212,6 @@ function App() {
   };
 
   const resetDisplay = () => {
-    // const resetTypes = typeState;
-    // const resetColors = colorState;
-    // Object.keys(resetTypes.checkboxes).forEach(type => resetTypes.checkboxes[type] = false);
-    // Object.keys(resetColors.checkboxes).forEach(color => resetColors.checkboxes[color] = false);
     setTypeState({
       checkboxes: TYPES.reduce(
         (types, type) => ({
@@ -225,10 +221,6 @@ function App() {
         {}
       )
     })
-    // setTypeState(resetTypes);
-    // setColorState(resetColors);
-    // console.log(typeState);
-    // console.log(colorState);
     setColorState({
       checkboxes: COLORS.reduce(
         (types, type) => ({

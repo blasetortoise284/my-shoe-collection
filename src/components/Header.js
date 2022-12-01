@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <nav>
           <Box sx={{ flexGrow: 1}}>
-            <AppBar elevation={0} style={{ background: 'linear-gradient(to bottom, #a2ceff, #acd3ff, #b5d8ff, #bfddff, #c8e2ff, #c8e2ff, #c8e2ff, #c8e2ff, #bfddff, #b5d8ff, #acd3ff, #a2ceff)'}}> 
+            <AppBar elevation={0} style={{ background: 'linear-gradient(to bottom, #f2c5e0, #f5cee5, #f7d6ea, #fadfef, #fce7f4, #fce7f4, #fce7f4, #fce7f4, #fadfef, #f7d6ea, #f5cee5, #f2c5e0)'}}> 
             <Toolbar>
               <Typography style={{color: '#121213'}}variant="h6" component="div" sx={{ flexGrow: 1}}>
                 ✰  if my shoe closet was a store…

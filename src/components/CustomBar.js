@@ -9,7 +9,8 @@ const CustomBar = (props) => {
             <Box sx={{ width: '100%' }}>
                 <Button 
                 sx={{ margin: '1rem 1rem 0 1rem' }}
-                variant="contained" 
+                variant="outlined" 
+                style={{color: "#4580DA"}}
                 onClick={props.resetDisplay}>
                 Reset all filters
                 </Button>

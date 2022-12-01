@@ -33,8 +33,8 @@ const CartCard = (props) => {
                       ${price}.00
                   </Typography>
               </CardContent>
-              <Box style={{margin: '0rem 10rem 0rem 0.5rem', display: 'flex', maxHeight: '2rem', textAlign: 'center'}} className="quantityChange">
-                  <Button style={{minWidth: '2rem', border: '0.25rem 0rem 0rem 0rem'}} value="decrement" onClick={() => props.handlePairs(name, DecNum(numPairs))}>-</Button>
+              <Box style={{margin: '0rem 10rem 0rem 1rem', display: 'flex', maxHeight: '2rem', textAlign: 'center'}} className="quantityChange">
+                  <Button style={{minWidth: '2rem'}} value="decrement" onClick={() => props.handlePairs(name, DecNum(numPairs))}>-</Button>
                   <p style={{margin: 'auto 1rem'}}>{numPairs + count}</p>
                   <Button style={{minWidth: '2rem'}} value="increment" onClick={() => props.handlePairs(name, IncNum(numPairs))}>+</Button>
               </Box>
